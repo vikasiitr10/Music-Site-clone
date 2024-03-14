@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: rgb(180 31 62);
+    
+    
+}
+
+*{
+    margin : 0;
+    padding: 0; 
+
+}
+
+nav{
+    font-family:'Roboto';
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color:black;
+    
+    color : white;
+    
+}
+nav ul li{
+    padding : 0 16px;
+}
+.list{
+    cursor: pointer;
+}
+.brand img{
+    padding: 0 8px;
+    width : 44px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+.rectangle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width:100px;
+    height:30px;   
+    right:0;
+    cursor: pointer;
+ 
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+.profile img{
+    position: absolute;
+    padding: 0 8px;
+    width : 36px;
+    right:20vw;
+}
+.userName{
+    font-family: Inter;
+    font-size: 16px ;
+    position: absolute;
+    right:9vw;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 70vh;
+    display:flex;
+    background-color:black;
+    color:white;
+    background-image:url('BG2.jpeg');
+    border-color: whitesmoke;
+    border-width: 4px;
+    width : 78%;
+    
+    border-radius: 8px;
+    margin:14px auto;
+    padding:20px 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom : 3vh;
+
+}
+.heading{
+    
+    font-size: 100px;
+    font-weight: 800;
+    font-family: Inter;
+    
+}
+.heading2{
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 32px;
+    margin-left:1vw;
+    
+}
+
+.songItems{
+    
+    margin:20px 20px;
+    padding:10px 30px;
+
+}
+.songNameContainer{
+    margin-top: 60px;
+}
+.songName{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    width:75%;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.song{
+    font-size: 14px;
+    font-weight: 300;
+}
+.songName img{
+    
+    margin : 10px;
+    width:30px;
+    height: 30px;
+
+}
+.timespan{
+    margin:0 24px;
+    
+}
+.timespan i{
+    cursor: pointer;
+}
+.currentSong{
+    position: sticky;
+    bottom:0;
+    height: 110px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+    
+    cursor: pointer;
+    
+}
+#myScrollBar{
+  width:80vw;
+  cursor: pointer;
+  
+}
+.songInfo{
+    position: absolute;
+    top:6.5vh;
+    left:10vw;
+    align-items: center;
+    font-family: Inter;
+    display: flex;;
+
+}
+.songInfo img{
+    width:60px;
+    top:4vh;
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+
+.musicgif{
+    font-size: 12px;
+    margin-left: 10px;;
+}
